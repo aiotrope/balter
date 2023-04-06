@@ -2,9 +2,11 @@ version: "3.9"
 
 services:
   sample-service:
-    image: devopsdockeruh/simple-web-service:alpine
+    image: devopsdockeruh/simple-web-service
     build: .
+    ports:
+      - 8080:8080
     volumes:
       - ./text.log:/usr/src/app/text.log # location-in-host:location-in-container
+    command: server
     container_name: sample-container
-

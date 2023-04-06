@@ -23,3 +23,11 @@ Date: 6.4.2023
 $ docker compose up
 
 ```
+
+## Exercise 2.2
+
+- docker compose file: [https://github.com/aiotrope/balter/blob/2.2/docker-compose.yml](https://github.com/aiotrope/balter/blob/2.2/docker-compose.yml)
+
+- script answer: [https://github.com/aiotrope/balter/blob/main/script-answers/exercise2_2.txt](https://github.com/aiotrope/balter/blob/main/script-answers/exercise2_2.txt)
+
+

@@ -1,0 +1,8 @@
+Script started on Fri Apr  7 01:39:40 2023
+[1m[7m%[27m[1m[0m                                                                                                                                                                                              [0m[27m[24m[Jai@Arnels-MacBook-Pro balter % [K[?2004hddocker container ls[?2004l
+CONTAINER ID   IMAGE                               COMMAND                  CREATED         STATUS         PORTS                    NAMES
+a17ea8b98617   devopsdockeruh/simple-web-service   "/usr/src/app/server…"   3 minutes ago   Up 3 minutes   0.0.0.0:8080->8080/tcp   sample-container
+[1m[7m%[27m[1m[0m                                                                                                                                                                                              [0m[27m[24m[Jai@Arnels-MacBook-Pro balter % [K[?2004hccurl [7mhttp://localhost:8080[27m[21D[27mh[27mt[27mt[27mp[27m:[27m/[27m/[27ml[27mo[27mc[27ma[27ml[27mh[27mo[27ms[27mt[27m:[27m8[27m0[27m8[27m0[?2004l
+{"message":"You connected to the following path: /","path":"/"}[1m[7m%[27m[1m[0m                                                                                                                                                                                              [0m[27m[24m[Jai@Arnels-MacBook-Pro balter % [K[?2004heexit[?2004l
+
+Script done on Fri Apr  7 01:40:27 2023
