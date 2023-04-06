@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  sample-service:
+    image: devopsdockeruh/simple-web-service:alpine
+    build: .
+    volumes:
+      - ./text.log:/usr/src/app/text.log # location-in-host:location-in-container
+    container_name: sample-container
+

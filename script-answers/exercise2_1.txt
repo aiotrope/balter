@@ -1,0 +1,26 @@
+Script started on Fri Apr  7 00:32:30 2023
+[1m[7m%[27m[1m[0m                                                                                                                                                                                              [0m[27m[24m[Jai@Arnels-MacBook-Pro balter % [K[?2004hddocker container ls[?2004l
+CONTAINER ID   IMAGE                                      COMMAND                 CREATED         STATUS         PORTS     NAMES
+a622157423e0   devopsdockeruh/simple-web-service:alpine   "/usr/src/app/server"   2 minutes ago   Up 2 minutes             sample-container
+[1m[7m%[27m[1m[0m                                                                                                                                                                                              [0m[27m[24m[Jai@Arnels-MacBook-Pro balter % [K[?2004hddocker images[?2004l
+REPOSITORY                          TAG       IMAGE ID       CREATED       SIZE
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   2 years ago   15.7MB
+[1m[7m%[27m[1m[0m                                                                                                                                                                                              [0m[27m[24m[Jai@Arnels-MacBook-Pro balter % [K[?2004hddocker exec -it [7ma622157423e0[27m[12D[27ma[27m6[27m2[27m2[27m1[27m5[27m7[27m4[27m2[27m3[27me[27m0 /bin/sh[?2004l
+/usr/src/app # [6n/usr/src/app # [Jls
+[1;32mserver[m    [0;0mtext.log[m
+/usr/src/app # [6ncat /et/usr/src/app # cat /etc/[Jos/usr/src/app # cat /etc/os-release [J
+NAME="Alpine Linux"
+ID=alpine
+VERSION_ID=3.13.2
+PRETTY_NAME="Alpine Linux v3.13"
+HOME_URL="https://alpinelinux.org/"
+BUG_REPORT_URL="https://bugs.alpinelinux.org/"
+/usr/src/app # [6nexit
+[1m[7m%[27m[1m[0m                                                                                                                                                                                              [0m[27m[24m[Jai@Arnels-MacBook-Pro balter % [K[?2004hddocker ps[?2004l
+CONTAINER ID   IMAGE                                      COMMAND                 CREATED         STATUS         PORTS     NAMES
+a622157423e0   devopsdockeruh/simple-web-service:alpine   "/usr/src/app/server"   3 minutes ago   Up 3 minutes             sample-container
+[1m[7m%[27m[1m[0m                                                                                                                                                                                              [0m[27m[24m[Jai@Arnels-MacBook-Pro balter % [K[?2004hddocker container stop [7ma622157423e0[27m[12D[27ma[27m6[27m2[27m2[27m1[27m5[27m7[27m4[27m2[27m3[27me[27m0[?2004l
+a622157423e0
+[1m[7m%[27m[1m[0m                                                                                                                                                                                              [0m[27m[24m[Jai@Arnels-MacBook-Pro balter % [K[?2004hd eexit[?2004l
+
+Script done on Fri Apr  7 00:34:18 2023
