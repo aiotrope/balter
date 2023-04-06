@@ -8,7 +8,7 @@ Date: 6.4.2023
 
 ##  Exercise 1.1
 
-- docker compose file: 
+- docker compose file: [https://github.com/aiotrope/balter/blob/2.1/docker-compose.yml](https://github.com/aiotrope/balter/blob/2.1/docker-compose.yml)
 
 ### CLI Commands
 
@@ -22,11 +22,11 @@ $ docker compose up
 
 ### Script answer
 
-- 
+- [https://github.com/aiotrope/balter/blob/main/script-answers/exercise2_1.txt](https://github.com/aiotrope/balter/blob/main/script-answers/exercise2_1.txt)
 
 ### Text log
 
-- 
+- [https://github.com/aiotrope/balter/blob/2.1/text.log](https://github.com/aiotrope/balter/blob/2.1/text.log)
 
 
 
