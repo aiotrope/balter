@@ -6,7 +6,7 @@ Date: 6.4.2023
 
 ---
 
-##  Exercise 1.1
+##  Exercise 2.1
 
 - docker compose file: [https://github.com/aiotrope/balter/blob/2.1/docker-compose.yml](https://github.com/aiotrope/balter/blob/2.1/docker-compose.yml)
 
