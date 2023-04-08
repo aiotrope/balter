@@ -30,4 +30,12 @@ $ docker compose up
 
 - script answer: [https://github.com/aiotrope/balter/blob/main/script-answers/exercise2_2.txt](https://github.com/aiotrope/balter/blob/main/script-answers/exercise2_2.txt)
 
+## Exercise 2.3
+
+- docker compose file: [https://github.com/aiotrope/balter/blob/docker-compose.yml](https://github.com/aiotrope/balter/blob/2.3/docker-compose.yml)
+
+- script answer: [https://github.com/aiotrope/balter/blob/main/script-answers/exercise2_1.txt](https://github.com/aiotrope/balter/blob/main/script-answers/exercise2_1.txt)
+
+- text log: [https://github.com/aiotrope/balter/blob/2.1/text.log](https://github.com/aiotrope/balter/blob/2.1/text.log)
+
 

@@ -1,0 +1,74 @@
+Script started on Sat Apr  8 04:39:04 2023
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  [0m[27m[24m[Jai@Arnels-MacBook-Pro material-applications % [K[?2004hexitdocker imagesps    [?2004l
+CONTAINER ID   IMAGE                            COMMAND                  CREATED              STATUS              PORTS                    NAMES
+1f1912935cbd   material-applications-frontend   "docker-entrypoint.s…"   About a minute ago   Up About a minute   0.0.0.0:3000->3000/tcp   material-applications-frontend-1
+004ab3f7d7cf   material-applications-backend    "/server"                About a minute ago   Up About a minute   0.0.0.0:8080->8080/tcp   material-applications-backend-1
+ed413415aba1   redis:latest                     "docker-entrypoint.s…"   About a minute ago   Up About a minute   6379/tcp                 material-applications-cache-1
+86c7e4aa0cc4   postgres:15                      "docker-entrypoint.s…"   About a minute ago   Up About a minute   5432/tcp                 material-applications-db-1
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  [0m[27m[24m[Jai@Arnels-MacBook-Pro material-applications % [K[?2004hdocker ps[9Dexit     docker images[?2004l
+REPOSITORY                       TAG       IMAGE ID       CREATED         SIZE
+material-applications-frontend   latest    33c8e8cf7170   7 minutes ago   459MB
+material-applications-backend    latest    ccd3989e982d   9 minutes ago   447MB
+postgres                         15        80c558ffdc31   11 days ago     379MB
+redis                            latest    31f08b90668e   2 weeks ago     117MB
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  [0m[27m[24m[Jai@Arnels-MacBook-Pro material-applications % [K[?2004hddocker compose u down[?2004l
+[1A[1B[0G[?25l[+] Running 0/0
+[37m ⠋ Container material-applications-frontend-1  Stopping                                                                                                                      0.1s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠙ Container material-applications-frontend-1  Stopping                                                                                                                      0.2s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠹ Container material-applications-frontend-1  Stopping                                                                                                                      0.3s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠸ Container material-applications-frontend-1  Stopping                                                                                                                      0.4s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠼ Container material-applications-frontend-1  Stopping                                                                                                                      0.5s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠴ Container material-applications-frontend-1  Stopping                                                                                                                      0.6s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠦ Container material-applications-frontend-1  Stopping                                                                                                                      0.7s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠿ Container material-applications-frontend-1  Removing                                                                                                                      0.8s
+[0m[?25h[1A[1A[0G[?25l[34m[+] Running 1/1[0m
+[34m ⠿ Container material-applications-frontend-1  Removed                                                                                                                       0.8s
+[0m[37m ⠋ Container material-applications-backend-1   Stopping                                                                                                                      0.1s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Container material-applications-frontend-1  Removed                                                                                                                       0.8s
+[0m[37m ⠙ Container material-applications-backend-1   Stopping                                                                                                                      0.2s
+[0m[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+[34m ⠿ Container material-applications-frontend-1  Removed                                                                                                                       0.8s
+[0m[34m ⠿ Container material-applications-backend-1   Removed                                                                                                                       0.2s
+[0m[37m ⠋ Container material-applications-cache-1     Stopping                                                                                                                      0.1s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+[34m ⠿ Container material-applications-frontend-1  Removed                                                                                                                       0.8s
+[0m[34m ⠿ Container material-applications-backend-1   Removed                                                                                                                       0.2s
+[0m[37m ⠙ Container material-applications-cache-1     Stopping                                                                                                                      0.2s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[34m[+] Running 3/3[0m
+[34m ⠿ Container material-applications-frontend-1  Removed                                                                                                                       0.8s
+[0m[34m ⠿ Container material-applications-backend-1   Removed                                                                                                                       0.2s
+[0m[34m ⠿ Container material-applications-cache-1     Removed                                                                                                                       0.2s
+[0m[37m ⠋ Container material-applications-db-1        Stopping                                                                                                                      0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/4
+[34m ⠿ Container material-applications-frontend-1  Removed                                                                                                                       0.8s
+[0m[34m ⠿ Container material-applications-backend-1   Removed                                                                                                                       0.2s
+[0m[34m ⠿ Container material-applications-cache-1     Removed                                                                                                                       0.2s
+[0m[37m ⠙ Container material-applications-db-1        Stopping                                                                                                                      0.1s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/4
+[34m ⠿ Container material-applications-frontend-1  Removed                                                                                                                       0.8s
+[0m[34m ⠿ Container material-applications-backend-1   Removed                                                                                                                       0.2s
+[0m[34m ⠿ Container material-applications-cache-1     Removed                                                                                                                       0.2s
+[0m[37m ⠿ Container material-applications-db-1        Removing                                                                                                                      0.2s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[34m[+] Running 4/4[0m
+[34m ⠿ Container material-applications-frontend-1  Removed                                                                                                                       0.8s
+[0m[34m ⠿ Container material-applications-backend-1   Removed                                                                                                                       0.2s
+[0m[34m ⠿ Container material-applications-cache-1     Removed                                                                                                                       0.2s
+[0m[34m ⠿ Container material-applications-db-1        Removed                                                                                                                       0.2s
+[0m[37m ⠋ Network material-applications_default       Removing                                                                                                                      0.1s
+[0m[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[34m[+] Running 5/5[0m
+[34m ⠿ Container material-applications-frontend-1  Removed                                                                                                                       0.8s
+[0m[34m ⠿ Container material-applications-backend-1   Removed                                                                                                                       0.2s
+[0m[34m ⠿ Container material-applications-cache-1     Removed                                                                                                                       0.2s
+[0m[34m ⠿ Container material-applications-db-1        Removed                                                                                                                       0.2s
+[0m[34m ⠿ Network material-applications_default       Removed                                                                                                                       0.1s
+[0m[?25h[1m[7m%[27m[1m[0m                                                                                                                                                                                  [0m[27m[24m[Jai@Arnels-MacBook-Pro material-applications % [K[?2004heexit[?2004l
+
+Script done on Sat Apr  8 04:39:38 2023

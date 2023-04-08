@@ -1,0 +1,16 @@
+Script started on Sat Apr  8 04:37:54 2023
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  [0m[27m[24m[Jai@Arnels-MacBook-Pro material-applications % [K[?2004hddocker ps[?2004l
+CONTAINER ID   IMAGE                            COMMAND                  CREATED          STATUS          PORTS                    NAMES
+1f1912935cbd   material-applications-frontend   "docker-entrypoint.s…"   34 seconds ago   Up 31 seconds   0.0.0.0:3000->3000/tcp   material-applications-frontend-1
+004ab3f7d7cf   material-applications-backend    "/server"                34 seconds ago   Up 32 seconds   0.0.0.0:8080->8080/tcp   material-applications-backend-1
+ed413415aba1   redis:latest                     "docker-entrypoint.s…"   35 seconds ago   Up 32 seconds   6379/tcp                 material-applications-cache-1
+86c7e4aa0cc4   postgres:15                      "docker-entrypoint.s…"   35 seconds ago   Up 33 seconds   5432/tcp                 material-applications-db-1
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  [0m[27m[24m[Jai@Arnels-MacBook-Pro material-applications % [K[?2004hddocker images[?2004l
+REPOSITORY                       TAG       IMAGE ID       CREATED         SIZE
+material-applications-frontend   latest    33c8e8cf7170   5 minutes ago   459MB
+material-applications-backend    latest    ccd3989e982d   8 minutes ago   447MB
+postgres                         15        80c558ffdc31   11 days ago     379MB
+redis                            latest    31f08b90668e   2 weeks ago     117MB
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  [0m[27m[24m[Jai@Arnels-MacBook-Pro material-applications % [K[?2004heexit[?2004l
+
+Script done on Sat Apr  8 04:38:38 2023
