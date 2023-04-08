@@ -32,10 +32,60 @@ $ docker compose up
 
 ## Exercise 2.3
 
-- docker compose file: [https://github.com/aiotrope/balter/blob/docker-compose.yml](https://github.com/aiotrope/balter/blob/2.3/docker-compose.yml)
+- docker compose file: [https://github.com/aiotrope/balter/blob/2.3/material-applications/docker-compose.yml](https://github.com/aiotrope/balter/blob/2.3/material-applications/docker-compose.yml)
 
-- script answer: [https://github.com/aiotrope/balter/blob/main/script-answers/exercise2_1.txt](https://github.com/aiotrope/balter/blob/main/script-answers/exercise2_1.txt)
+- script answer: [https://github.com/aiotrope/balter/blob/main/script-answers/exercise2_3.txt](https://github.com/aiotrope/balter/blob/main/script-answers/exercise2_3.txt)
 
-- text log: [https://github.com/aiotrope/balter/blob/2.1/text.log](https://github.com/aiotrope/balter/blob/2.1/text.log)
+### CLI Commands
+
+```bash
+# build/rebuild services for prod (full stack) environment; can be view on the browser at http://localhost:3000
+$ cd material-applications && docker compose -f docker-compose.yml up --build
+
+# build images of container or re-reun services (full stack); can be view on the browser at http://localhost:3000
+$ cd material-applications && docker compose up
+
+# stop the process
+$ docker compose down
+```
+
+## Exercise 2.4
+
+- docker compose file: [https://github.com/aiotrope/balter/blob/2.3/material-applications/docker-compose.yml](https://github.com/aiotrope/balter/blob/2.3/material-applications/docker-compose.yml)
+
+- script answer: [https://github.com/aiotrope/balter/blob/main/script-answers/exercise2_4.txt](https://github.com/aiotrope/balter/blob/main/script-answers/exercise2_4.txt)
+
+### CLI Commands
+
+```bash
+# build/rebuild services for prod (full stack) environment; can be view on the browser at http://localhost:3000
+$ cd material-applications && docker compose -f docker-compose.yml up --build
+
+# build images of container or re-reun services (full stack); can be view on the browser at http://localhost:3000
+$ cd material-applications && docker compose up
+
+# stop the process
+$ docker compose down
+```
+
+## Exercise 2.6
+
+- docker compose file: [https://github.com/aiotrope/balter/blob/2.3/material-applications/docker-compose.yml](https://github.com/aiotrope/balter/blob/2.3/material-applications/docker-compose.yml)
+
+- script answer: [https://github.com/aiotrope/balter/blob/main/script-answers/exercise2_6.txt](https://github.com/aiotrope/balter/blob/main/script-answers/exercise2_6.txt)
+
+### CLI Commands
+
+```bash
+# build/rebuild services for prod (full stack) environment; can be view on the browser at http://localhost:3000
+$ cd material-applications && docker compose -f docker-compose.yml up --build
+
+# build images of container or re-reun services (full stack); can be view on the browser at http://localhost:3000
+$ cd material-applications && docker compose up
+
+# stop the process
+$ docker compose down
+```
+
 
 
