@@ -93,4 +93,16 @@ $ docker compose down
 
 - docker compose file: [https://github.com/aiotrope/balter/blob/2.3a/material-applications/docker-compose.yml](https://github.com/aiotrope/balter/blob/2.3a/material-applications/docker-compose.yml)
 
-- Dockerfile with nginx: 
+- Dockerfile with nginx: [https://github.com/aiotrope/balter/blob/2.3a/material-applications/example-frontend/Dockerfile](https://github.com/aiotrope/balter/blob/2.3a/material-applications/example-frontend/Dockerfile)
+
+
+```bash
+# build/rebuild services for prod (full stack) environment; can be view on the browser at http://localhost
+$ cd material-applications && docker compose -f docker-compose.yml up --build
+
+# build images of container or re-reun services (full stack); can be view on the browser at http://localhost
+$ cd material-applications && docker compose up
+
+# stop the process
+$ docker compose down
+```
