@@ -6,7 +6,7 @@ Date: 6.4.2023
 
 ---
 
-##  Exercise 2.1
+## Exercise 2.1
 
 - docker compose file: [https://github.com/aiotrope/balter/blob/2.1/docker-compose.yml](https://github.com/aiotrope/balter/blob/2.1/docker-compose.yml)
 
@@ -87,5 +87,10 @@ $ cd material-applications && docker compose up
 $ docker compose down
 ```
 
+## Exercise 2.8
 
+- Postgres and Redis instance in this exercise is not dockerized instead it uses cloud-based db instances from ElephantSql & Redis Enterprise Cloud.
 
+- docker compose file: [https://github.com/aiotrope/balter/blob/2.3a/material-applications/docker-compose.yml](https://github.com/aiotrope/balter/blob/2.3a/material-applications/docker-compose.yml)
+
+- Dockerfile with nginx: 
