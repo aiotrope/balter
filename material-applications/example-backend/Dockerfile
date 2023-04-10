@@ -7,6 +7,7 @@ COPY go.mod ./
 COPY go.sum ./
 
 COPY . .
+COPY .env .
 
 RUN go build -o /server
 

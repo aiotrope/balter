@@ -42,11 +42,12 @@ func InitializeRedisClient() error {
 
 	fmt.Println("[Ex 2.4+] Initializing redis client")
 
-	redisAddr := redisHost + ":" + os.Getenv("REDIS_PORT")
+	redisAddr := redisHost + ":6379"
 
 	rdb = redis.NewClient(&redis.Options{
 		Addr: redisAddr,
-		Password: os.Getenv("REDIS_PASSWORD"),
+		Password: "",
+		DB: 0,
 	})
 
 	for i := 0; i <= 4; i++ {

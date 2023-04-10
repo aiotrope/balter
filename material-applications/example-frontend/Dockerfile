@@ -1,38 +1,22 @@
-# First stage
-FROM node:16.19-alpine as build
+FROM node:16.19-alpine
 
 # Create app directory
-WORKDIR /app
+WORKDIR /usr/src/app
 
 # Install app dependencies
 COPY package*.json ./
 
 ENV CI=true
 
-ENV PATH /app/node_modules/.bin:$PATH
-
-ENV NODE_ENV production
-
 RUN npm install
 
 # Copy app source code
 COPY . .
+COPY .env .
 
 RUN npm run build
 
-# Second Stage: production environment
-FROM nginx:stable-alpine
+#Expose port and start application
+EXPOSE 3000
 
-# Set working directory to nginx resources directory
-WORKDIR /usr/share/nginx/html
-
-# Remove default nginx static resources
-RUN rm -rf ./*
-
-# Copy static assets from nodebuild stage
-COPY --from=build /app/build .
-
-EXPOSE 80
-
-# Containers run nginx with global directives and daemon off
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["npm", "start"]

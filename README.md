@@ -106,3 +106,4 @@ $ cd material-applications && docker compose up
 # stop the process
 $ docker compose down
 ```
+
