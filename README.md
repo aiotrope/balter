@@ -32,7 +32,7 @@ $ docker compose up
 
 ## Exercise 2.3
 
-- docker compose file: [https://github.com/aiotrope/balter/blob/2.3/material-applications/docker-compose.yml](https://github.com/aiotrope/balter/blob/2.3/material-applications/docker-compose.yml)
+- docker compose file: [https://github.com/aiotrope/balter/blob/2.5/material-applications/docker-compose.yml](https://github.com/aiotrope/balter/blob/2.5/material-applications/docker-compose.yml)
 
 - script answer: [https://github.com/aiotrope/balter/blob/main/script-answers/exercise2_3.txt](https://github.com/aiotrope/balter/blob/main/script-answers/exercise2_3.txt)
 
@@ -51,7 +51,7 @@ $ docker compose down
 
 ## Exercise 2.4
 
-- docker compose file: [https://github.com/aiotrope/balter/blob/2.3/material-applications/docker-compose.yml](https://github.com/aiotrope/balter/blob/2.3/material-applications/docker-compose.yml)
+- docker compose file: [https://github.com/aiotrope/balter/blob/2.5/material-applications/docker-compose.yml](https://github.com/aiotrope/balter/blob/2.5/material-applications/docker-compose.yml)
 
 - script answer: [https://github.com/aiotrope/balter/blob/main/script-answers/exercise2_4.txt](https://github.com/aiotrope/balter/blob/main/script-answers/exercise2_4.txt)
 
@@ -70,7 +70,7 @@ $ docker compose down
 
 ## Exercise 2.6
 
-- docker compose file: [https://github.com/aiotrope/balter/blob/2.3/material-applications/docker-compose.yml](https://github.com/aiotrope/balter/blob/2.3/material-applications/docker-compose.yml)
+- docker compose file: [https://github.com/aiotrope/balter/blob/2.5/material-applications/docker-compose.yml](https://github.com/aiotrope/balter/blob/2.5/material-applications/docker-compose.yml)
 
 - script answer: [https://github.com/aiotrope/balter/blob/main/script-answers/exercise2_6.txt](https://github.com/aiotrope/balter/blob/main/script-answers/exercise2_6.txt)
 
