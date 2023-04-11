@@ -18,6 +18,5 @@ services:
       - "80:80"
     env_file:
       - ./example-frontend/.env
-
     depends_on:
       - backend
