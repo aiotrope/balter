@@ -68,6 +68,10 @@ $ cd material-applications && docker compose up
 $ docker compose down
 ```
 
+## Exercise 2.5
+
+- script answer: [https://github.com/aiotrope/balter/blob/main/script-answers/exercise2_5.txt](https://github.com/aiotrope/balter/blob/main/script-answers/exercise2_5.txt)
+
 ## Exercise 2.6
 
 - docker compose file: [https://github.com/aiotrope/balter/blob/2.5/material-applications/docker-compose.yml](https://github.com/aiotrope/balter/blob/2.5/material-applications/docker-compose.yml)
